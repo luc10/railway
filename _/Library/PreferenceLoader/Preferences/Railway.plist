@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = Railway;
+	cell = PSLinkCell;
+	detail = RailwayListController;
+	icon = Railway.png;
+	isController = 1;
+	label = Railway;
+    };
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Base Settings</string>
+			<key>footerText</key>
+			<string>Switch on to enable railway.</string>
+		</dict>
+		<dict>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.luciano.railway</string>
+			<key>key</key>
+			<string>RWEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Folders</string>
+			<key>footerText</key>
+			<string>Unplug and replug the device for the changes to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.luciano.railway</string>
+			<key>key</key>
+			<string>RWITunesLibrary</string>
+			<key>label</key>
+			<string>iTunes Library</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.luciano.railway</string>
+			<key>key</key>
+			<string>RWDownloads</string>
+			<key>label</key>
+			<string>Downloads</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.luciano.railway</string>
+			<key>key</key>
+			<string>RWRecordings</string>
+			<key>label</key>
+			<string>Recordings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Status</string>
+			<key>footerText</key>
+			<string>After purchasing a license please respring and keep alive internet connection while plugging in the device.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>purchaseLicense</string>
+			<key>label</key>
+			<string>Purchase</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Railway</string>
+</dict>
+</plist>
